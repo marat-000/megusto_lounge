@@ -147,31 +147,7 @@ body {
 /* Для планшетов (ширина от 600px до 1024px) */
 @media (max-width: 1024px) and (min-width: 600px) {
   .menu_wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-  }
-
-  .menu-child {
-    width: 100%;
-    margin: 0 auto;
-    height: 350px;
-  }
-
-  .menu-child-photo {
-    width: 100%;
-    height: auto;
-  }
-
-  .about {
-    margin: 10px;
-  }
-
-  .about_text {
-    font-size: 1.1rem;
-  }
-
-  .number,
-  .location {
-    font-size: 1rem;
+    grid-template-columns: repeat(2, 247px);
+    gap: 20px;
   }
 }
