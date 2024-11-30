@@ -98,3 +98,80 @@ body {
   flex-direction: column;
   padding: 10px;
 }
+
+@media (max-width: 600px) {
+  body {
+    max-width: 100%;
+  }
+
+  .logo-wrapp {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .menu-child {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .menu-child-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .about_text {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .number,
+  .location {
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+
+  .about-child {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Для планшетов (ширина от 600px до 1024px) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .menu_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .menu-child {
+    width: 100%;
+    margin: 0 auto;
+    height: 350px;
+  }
+
+  .menu-child-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .about {
+    margin: 10px;
+  }
+
+  .about_text {
+    font-size: 1.1rem;
+  }
+
+  .number,
+  .location {
+    font-size: 1rem;
+  }
+}
