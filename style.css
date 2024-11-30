@@ -1,0 +1,99 @@
+body {
+  max-width: 800px;
+
+  height: 100vh;
+  background-color: black;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.container {
+  padding: 10px;
+  color: white;
+}
+.logo-wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.about {
+  margin-top: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about_text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about_child {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.number {
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid white;
+  padding-left: 10px;
+}
+.icon-ph {
+  width: 24px;
+}
+.location {
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid white;
+  padding-left: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.info_txt {
+  color: white;
+}
+.about_children {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-child-photo {
+  width: 247px;
+  height: 250px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.menu_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 247px);
+  gap: 20px;
+  margin-top: 30px;
+}
+.menu-child {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  height: 320px;
+}
+.menu-child_2 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
