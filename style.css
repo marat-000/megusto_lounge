@@ -98,6 +98,11 @@ body {
   flex-direction: column;
   padding: 10px;
 }
+.menu_wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
 
 @media (max-width: 600px) {
   body {
@@ -150,4 +155,53 @@ body {
     grid-template-columns: repeat(2, 247px);
     gap: 20px;
   }
+}
+.navigate-btn {
+  padding: 8px 6px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  font-weight: 600;
+}
+.navigate-btn:active {
+  background-color: black;
+  color: white;
+}
+footer {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 10px 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 20px;
+  display: none; /* Скрываем кнопку по умолчанию */
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: black;
+  color: white;
+}
+
+.scroll-to-top:active {
+  transform: scale(0.9);
 }
